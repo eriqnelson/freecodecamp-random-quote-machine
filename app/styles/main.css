@@ -23,12 +23,17 @@ html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #CFD8DC;
 }
-}
+
 .mdl-layout {
 	align-items: center;
+}
+
+.mdl-grid{
   justify-content: center;
 }
+
 .mdl-layout__content {
 	padding: 24px;
 	flex: none;
@@ -36,16 +41,32 @@ html, body {
 
 .mdl-cell {
   box-sizing: border-box;
-  background-color: silver;
-  color: white;
+  background-color: #ECEFF1;
+  color: #263238;
+  height:auto;
+}
+#header{
+  padding-left: 1em;
 }
 
 #quoteBox{
-  height: 200px;
+padding: 1em;
 }
+
 #attributeBox{
   height: 100px;
 }
-.mdl-button{
-  padding: 20px;
+
+button.mdl-button {
+  margin: 30px;
+  font-size: 2.0em
+}
+
+#headerIcon{
+  font-size: 1.5em;
+  margin-right: .5em;
+}
+
+#newTweet{
+  background: #55ACEE;
 }
