@@ -73,4 +73,19 @@
   }
 
   // Your custom JavaScript goes here
+document.getElementById("newTweet").onclick = function() {newTweet();};
+document.getElementById("newQuote").onclick = function() {newQuote();};
+
+function newTweet() {
+  // truncate current Quote
+  // assemble URL
+  // pass URL to window.open
+    window.open("https://twitter.com/intent/tweet?text=Quote%20text%20truncated");
+}
+
+function newQuote(){
+// call for a new Quote
+// render the quote in id="quotebox"
+// render the attribution to id="attbox"
+}
 })();
