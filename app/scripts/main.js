@@ -75,7 +75,7 @@
   // Your custom JavaScript goes here
 document.getElementById("newTweet").onclick = function() {newTweet();};
 document.getElementById("newQuote").onclick = function() {newQuote();};
-
+// on load: run newQuote
 function newTweet() {
   // truncate current Quote
   // assemble URL
